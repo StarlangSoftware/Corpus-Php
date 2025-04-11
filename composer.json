@@ -1,5 +1,5 @@
 {
-  "name": "olcaytaner/ngram",
+  "name": "olcaytaner/corpus",
   "version": "1.0.0",
   "description": "Corpus processing library",
   "type": "library",
