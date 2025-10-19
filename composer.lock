@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f3ff3d09b09414ab37a695bb3fecc31",
+    "content-hash": "1172a44d8af1ea8f766bb9d56ee740f9",
     "packages": [],
     "packages-dev": [
         {
@@ -166,16 +166,16 @@
         },
         {
             "name": "olcaytaner/dictionary",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StarlangSoftware/Dictionary-Php.git",
-                "reference": "1fcb47144b859dcd9d5529ced975b7f30b7eadc6"
+                "reference": "f5ae98f30f2c6a2e8951aaee6ff53b8b4094e298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StarlangSoftware/Dictionary-Php/zipball/1fcb47144b859dcd9d5529ced975b7f30b7eadc6",
-                "reference": "1fcb47144b859dcd9d5529ced975b7f30b7eadc6",
+                "url": "https://api.github.com/repos/StarlangSoftware/Dictionary-Php/zipball/f5ae98f30f2c6a2e8951aaee6ff53b8b4094e298",
+                "reference": "f5ae98f30f2c6a2e8951aaee6ff53b8b4094e298",
                 "shasum": ""
             },
             "require": {
@@ -199,15 +199,17 @@
             ],
             "authors": [
                 {
-                    "name": "y"
+                    "name": "Olcay Taner YILDIZ",
+                    "email": "olcay.yildiz@ozyegin.edu.tr",
+                    "homepage": "https://www.ozyegin.edu.tr/tr/akademik-kadro/olcayyildiz"
                 }
             ],
             "description": "Dictionary processing library",
             "support": {
                 "issues": "https://github.com/StarlangSoftware/Dictionary-Php/issues",
-                "source": "https://github.com/StarlangSoftware/Dictionary-Php/tree/1.0.0"
+                "source": "https://github.com/StarlangSoftware/Dictionary-Php/tree/1.0.1"
             },
-            "time": "2025-03-14T10:13:58+00:00"
+            "time": "2025-10-19T16:56:39+00:00"
         },
         {
             "name": "olcaytaner/util",
@@ -368,16 +370,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "11.0.10",
+            "version": "11.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "1a800a7446add2d79cc6b3c01c45381810367d76"
+                "reference": "4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/1a800a7446add2d79cc6b3c01c45381810367d76",
-                "reference": "1a800a7446add2d79cc6b3c01c45381810367d76",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4",
+                "reference": "4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4",
                 "shasum": ""
             },
             "require": {
@@ -434,7 +436,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/show"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/11.0.11"
             },
             "funding": [
                 {
@@ -454,7 +456,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-18T08:56:18+00:00"
+            "time": "2025-08-27T14:37:49+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1266,16 +1268,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "6.3.0",
+            "version": "6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "3473f61172093b2da7de1fb5782e1f24cc036dc3"
+                "reference": "70a298763b40b213ec087c51c739efcaa90bcd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/3473f61172093b2da7de1fb5782e1f24cc036dc3",
-                "reference": "3473f61172093b2da7de1fb5782e1f24cc036dc3",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/70a298763b40b213ec087c51c739efcaa90bcd74",
+                "reference": "70a298763b40b213ec087c51c739efcaa90bcd74",
                 "shasum": ""
             },
             "require": {
@@ -1289,7 +1291,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "6.1-dev"
+                    "dev-main": "6.3-dev"
                 }
             },
             "autoload": {
@@ -1332,15 +1334,27 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
-                "source": "https://github.com/sebastianbergmann/exporter/tree/6.3.0"
+                "source": "https://github.com/sebastianbergmann/exporter/tree/6.3.2"
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/exporter",
+                    "type": "tidelift"
                 }
             ],
-            "time": "2024-12-05T09:17:50+00:00"
+            "time": "2025-09-24T06:12:51+00:00"
         },
         {
             "name": "sebastian/global-state",

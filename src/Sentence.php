@@ -155,11 +155,11 @@ class Sentence
      *
      * @return string String result which has all the word in words {@link Array}.
      */
-    public function toString(): string{
+    public function __toString(): string{
         if (count($this->words) > 0) {
-            $result = $this->words[0]->toString();
+            $result = $this->words[0]->__toString();
             for ($i = 1; $i < count($this->words); $i++) {
-                $result .= " " . $this->words[$i]->toString();
+                $result .= " " . $this->words[$i]->__toString();
             }
             return $result;
         } else {
